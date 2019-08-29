@@ -44,7 +44,7 @@ $ git checkout master  //切换到主分支
 $ git merge [name]  //合并分支
 
 # 创建远程分支(本地分支push到远程)
-$ git push origin [name]
+$ git push --set-upstream origin [name]
 $ git branch -d [name]  //删除本地分支
 $ git push origin --delete [name]  //删除远程分支
 
