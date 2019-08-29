@@ -1,0 +1,59 @@
+# git初始化
+$ git config --global user.name.youcyousyunn
+$ git config --global user.email 731781984@qq.com
+$ mkdir [dir_name]
+$ git init
+
+
+# git添加&提交
+$ git add index.js
+$ git commit index.js -m "提交说明"
+$ git commit --amend --no-edit "追加，不用添加新的说明"
+
+
+# git中删除文件夹
+$ git rm -rf 文件夹名
+$ git add -a
+$ git commit -m "删除文件夹"
+$ git git push
+
+
+# push代码到指定分支
+$ git push https://snz1.cn/gitlab/dashboard/projects master 
+
+
+# git操作远程仓库
+$ git remote add [远程库名] [远程仓库地址]  //添加远程库名
+$ git remote remove [远程库名]  //删除远程库名
+$ git remote     //查看分支
+$ git remote -v  // 查看分支 仓库地址
+$ git remote rename [oldname] [newname]  //更改远程库名
+
+
+# git操作分支
+$ git branch     //查看本地分支
+$ git branch -r  //查看远程分支
+$ git branch -a  //查看本地&远程分支
+$ git branch [name]  //创建分支
+$ git checkout [name]  //切换到某个分支
+
+
+# 合并分支，先切换到主分支后合并
+$ git checkout master  //切换到主分支
+$ git merge [name]  //合并分支
+# 创建远程分支(本地分支push到远程)
+$ git push origin [name]
+$ git branch -d [name]  //删除本地分支
+$ git push origin --delete [name]  //删除远程分支
+
+# git生成密钥
+$ ssh-keygen -t rsa -C "731781984@qq.com"
+
+
+
+
+
+
+
+
+
