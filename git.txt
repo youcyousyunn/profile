@@ -42,6 +42,7 @@ $ git checkout [name]  //切换到某个分支
 # 合并分支，先切换到主分支后合并
 $ git checkout master  //切换到主分支
 $ git merge [name]  //合并分支
+
 # 创建远程分支(本地分支push到远程)
 $ git push origin [name]
 $ git branch -d [name]  //删除本地分支
@@ -51,7 +52,7 @@ $ git push origin --delete [name]  //删除远程分支
 $ ssh-keygen -t rsa -C "731781984@qq.com"
 
 
-by 2019/08/29
+finish by 2019/08/29
 
 
 
