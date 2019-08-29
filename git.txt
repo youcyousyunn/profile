@@ -52,7 +52,7 @@ $ git push origin --delete [name]  //É¾³ıÔ¶³Ì·ÖÖ§
 $ ssh-keygen -t rsa -C "731781984@qq.com"
 
 
-finish by 2019/08/29
+Date:2019/08/29
 
 
 
