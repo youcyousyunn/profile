@@ -1,5 +1,6 @@
 # git初始化
 $ git config --global user.name.youcyousyunn
+
 $ git config --global user.email 731781984@qq.com
 $ mkdir [dir_name]
 $ git init
@@ -50,7 +51,7 @@ $ git push origin --delete [name]  //删除远程分支
 $ ssh-keygen -t rsa -C "731781984@qq.com"
 
 
-
+by 2019/08/29
 
 
 
