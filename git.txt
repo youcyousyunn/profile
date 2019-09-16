@@ -38,8 +38,13 @@ $ git branch -a  //查看本地&远程分支
 $ git branch [name]  //创建分支
 $ git checkout [name]  //切换到某个分支
 
+# git切换到指定远程分支
+$ git checkout -b dev(本地分支) /origin/dev(远程分支)
+--该命令可以将远程git仓库里的指定分支拉取到本地，这样就在本地新建了一个dev分支，
+并和指定的远程分支origin/dev关联了起来。
 
-# 合并分支，先切换到主分支后合并
+
+# 合并分支 (先切换到主分支后合并)
 $ git checkout master  //切换到主分支
 $ git merge [name]  //合并分支
 
