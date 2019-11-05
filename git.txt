@@ -1,21 +1,24 @@
-# git初始化
-$ git config --global user.name.youcyousyunn
-
+# git初始化，安装git完成后，设置账号，邮箱
+$ git config --global user.name youcyousyunn
 $ git config --global user.email 731781984@qq.com
+
 $ mkdir [dir_name]
+# 执行命令初始化：将[dir_name]文件夹变成git管理的目录
 $ git init
 
 
-# git添加&提交
+# git添加，提交和推送
 $ git add index.js
-$ git commit index.js -m "提交说明"
+$ git commit -m "提交说明"
 $ git commit --amend --no-edit "追加，不用添加新的说明"
+$ git push
 
 
-# git中删除文件夹
-$ git rm -rf 文件夹名
+# git中删除文件或文件夹
+$ git rm 文件名 // 删除文件
+$ git rm -rf 文件夹名 // 删除文件夹
 $ git add -a
-$ git commit -m "删除文件夹"
+$ git commit -m "删除文件/文件夹"
 $ git git push
 
 
