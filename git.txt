@@ -55,6 +55,11 @@ $ git push --set-upstream origin [name]
 $ git branch -d [name]  --删除本地分支
 $ git push origin --delete [name]  --删除远程分支
 
+# 获取/推送代码到指定分支
+$ git pull/push origin master
+$ git pull/push origin dev
+
+
 # git生成密钥
 $ ssh-keygen -t rsa -C "731781984@qq.com"
 
@@ -62,9 +67,3 @@ $ ssh-keygen -t rsa -C "731781984@qq.com"
 参考博客:
 https://www.cnblogs.com/matengfei123/p/8252128.html
 Date:2019/08/29
-
-
-
-
-
-
