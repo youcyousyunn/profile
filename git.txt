@@ -23,7 +23,7 @@ $ git git push
 $ git push https://snz1.cn/gitlab/dashboard/projects master 
 
 
-# git操作远程仓库
+# git操作-远程仓库
 $ git remote add [远程库名] [远程仓库地址]  //添加远程库名
 $ git remote remove [远程库名]  //删除远程库名
 $ git remote     //查看分支
@@ -31,7 +31,7 @@ $ git remote -v  // 查看分支 仓库地址
 $ git remote rename [oldname] [newname]  //更改远程库名
 
 
-# git操作分支
+# git操作-分支
 $ git branch     //查看本地分支
 $ git branch -r  //查看远程分支
 $ git branch -a  //查看本地&远程分支
