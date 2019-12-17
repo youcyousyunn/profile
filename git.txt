@@ -64,6 +64,22 @@ $ git push origin --delete [name]  --É¾³ıÔ¶³Ì·ÖÖ§ (Ô­Àí£ºÉ¾³ı±¾µØ·ÖÖ§ºópushµ½Ô¶³
 # gitÉú³ÉÃÜÔ¿
 $ ssh-keygen -t rsa -C "731781984@qq.com"
 
+# ²é¿´ÎÄ¼şÀúÊ·°æ±¾
+$ git log xxx.js 
+
+# »ØÍËµ½Ö¸¶¨°æ±¾
+$ git reset °æ±¾ºÅ xxx.js 
+
+# Ìá½»
+$ git commit -m "°æ±¾»ØÍË"
+
+# checkout´úÂëµ½±¾µØ
+$ git checkout xxx.js
+
+# Ìá½»µ½Ô¶³Ì²Ö¿â
+$ git push
+
+
 
 ²Î¿¼²©¿Í:
 https://www.cnblogs.com/matengfei123/p/8252128.html
