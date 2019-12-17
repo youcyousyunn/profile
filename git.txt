@@ -49,6 +49,7 @@ $ git merge [name]  --合并分支
 
 # 创建本地分支并提交到远程仓库
 $ git branch 分支名
+$ git checkout 分支名
 $ git push origin 本地分支名  --该命令表示把本地dev分支提交到远程仓库，即创建了远程分支dev (原理：创建本地分支后push到远程)
 
 # 分支第一次提交代码
@@ -67,5 +68,3 @@ $ ssh-keygen -t rsa -C "731781984@qq.com"
 参考博客:
 https://www.cnblogs.com/matengfei123/p/8252128.html
 Date:2019/08/29
-
-巴拉巴拉~
